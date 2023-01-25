@@ -4,6 +4,7 @@ on:
     paths-ignore:
       - "dir/**"
 jobs:
+  runs-on: normal
   test:
     steps:
       - uses: actions/checkout@v3
