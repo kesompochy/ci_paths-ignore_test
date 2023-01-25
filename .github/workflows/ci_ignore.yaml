@@ -4,8 +4,8 @@ on:
     paths-ignore:
       - "dir/**"
 jobs:
-  runs-on: normal
   test:
+    runs-on: normal
     steps:
       - uses: actions/checkout@v3
       - run: echo "But you can ignore the CI when commits are out of dir/"
