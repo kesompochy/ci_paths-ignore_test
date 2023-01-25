@@ -5,6 +5,7 @@ on:
       - "dir/**"
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: echo "But you can ignore the CI when commits are out of dir/"
